@@ -6,6 +6,7 @@
   <h1>FM 5.0 - YouTube Downloader</h1>
 
   <h2>Overview</h2>
+<img style="width:700px; height:900px;" src="FM5.png" alt="FM 5.0 Screenshot"/>
 
   <p>FM 5.0 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
 
