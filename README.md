@@ -6,7 +6,7 @@
   <h1>FM 5.0 - YouTube Downloader</h1>
 
   <h2>Overview</h2>
-<div style="text-align: center;">
+<div style="text-align: center; items: center;">
   <img style="width: 25%; height: auto;" src="FM5.png" alt="FM 5.0 Screenshot"/>
 </div>
 
