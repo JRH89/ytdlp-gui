@@ -7,7 +7,7 @@
 
   <h2>Overview</h2>
 <div style="text-align: center;">
-  <img style="width: 50%; height: auto;" src="FM5.png" alt="FM 5.0 Screenshot"/>
+  <img style="width: 25%; height: auto;" src="FM5.png" alt="FM 5.0 Screenshot"/>
 </div>
 
 
