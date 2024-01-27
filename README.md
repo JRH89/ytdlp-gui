@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>FM 5.0 - YouTube Downloader</title>
-</head>
-
 <body>
 
   <h1>FM 5.0 - YouTube Downloader</h1>
