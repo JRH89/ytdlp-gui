@@ -34,7 +34,7 @@ cd FM-5.0</pre>
     <li><strong>Install dependencies:</strong></li>
     <pre>pip install -r requirements.txt</pre>
     <li><strong>Run the script:</strong></li>
-    <pre>python ytl.py</pre>
+    <pre>python main.py</pre>
   </ol>
 
   <h2>Usage</h2>
