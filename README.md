@@ -15,7 +15,7 @@
 
 <p>Download the FM 5.0 YouTube Downloader executable for a hassle-free experience. This standalone executable is packaged with all the necessary dependencies, allowing you to use the application without worrying about installing Python, yt_dlp, or ffmpeg separately. Simply download the executable, run it on your Windows machine, and start downloading your favorite YouTube content with ease.</p>
 
-<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5/ytl.exe">HERE</a> to download.</p>
+<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5/main.exe">HERE</a> to download.</p>
 
   <h2>Prerequisites</h2>
 
