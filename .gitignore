@@ -1,0 +1,4 @@
+# Exclude build and distribution folders
+build/
+dist/
+*.spec
