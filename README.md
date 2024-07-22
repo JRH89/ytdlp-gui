@@ -5,7 +5,7 @@
  <h1>FM 5.5 - YouTube Downloader</h1>
 
   <h2>Release Overview</h2>
-  <p>Introducing dark mode, progress bar, and custom save location.</p>
+  <p>Introducing dark mode and custom save location.</p>
 <div style="text-align: center; items: center;">
   <img style="width: 25%; height: auto;" src="FM5.5.png" alt="FM 5.5 Screenshot"/>
 </div>
