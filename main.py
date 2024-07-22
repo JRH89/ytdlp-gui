@@ -1,5 +1,3 @@
-# main.py
-
 import tkinter as tk
 from settings import SettingsPage
 from tkinter import filedialog, messagebox
@@ -104,36 +102,28 @@ class YoutubeDownloader:
             return
 
         ydl_opts = {
-            'format': 'bestvideo[ext=mp4]+bestaudio[ext=mp4]/best[ext=mp4]/best',
+            'format': 'bestvideo+bestaudio/best',
             'outtmpl': f'{self.download_folder}/%(title)s.%(ext)s',
             'progress_hooks': [self.update_progress],
         }
 
+        if format == 'mp3':
+            ydl_opts['format'] = 'bestaudio/best'
+            ydl_opts['postprocessors'] = [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'mp3',
+                'preferredquality': '192',
+            }]
+
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             try:
                 info_dict = ydl.extract_info(url, download=True)
-                title = info_dict.get('title', 'video')
-                video_path = f'{self.download_folder}/{title}.mp4'
-                audio_path = f'{self.download_folder}/{title}.mp3'
-
-                # Extract audio from video using ffmpeg
-                subprocess.run(['ffmpeg', '-i', video_path, '-q:a', '0', '-map', 'a', audio_path])
-
-                # Delete the original video file
-                Path(video_path).unlink()
-
+                title = info_dict.get('title', 'media')
                 messagebox.showinfo("Success", f"{format.upper()} download completed successfully.")
                 # Update the list of downloads
                 self.load_downloads()
             except yt_dlp.DownloadError as e:
                 messagebox.showerror("Error", f"Download failed: {e}")
-
-    def convert_to_mp3(self, url):
-        video_path = f'{self.download_folder}/' + yt_dlp.YoutubeDL().prepare_filename({'url': url})
-        audio_path = f'{self.download_folder}/' + yt_dlp.YoutubeDL().prepare_filename({'url': url, 'ext': 'mp3'})
-
-        ffmpeg.input(video_path).output(audio_path).run(overwrite_output=True)
-        Path(video_path).unlink()
 
     def update_progress(self, d):
         if d['status'] == 'downloading':
