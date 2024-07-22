@@ -2,14 +2,27 @@
 <html>
 
 <body>
+ <h1>FM 5.5 - YouTube Downloader</h1>
+
+  <h2>Release Overview</h2>
+  <p>Introducing dark mode, progress bar, and custom save location.</p>
+<div style="text-align: center; items: center;">
+  <img style="width: 25%; height: auto;" src="FM5.5.png" alt="FM 5.5 Screenshot"/>
+</div>
+
+<p>FM 5.5 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
+
+<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5.5/main.exe">HERE</a> to download.</p>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
 
   <h1>FM 5.0 - YouTube Downloader</h1>
 
-  <h2>Overview</h2>
+  <h2>Release Overview</h2>
 <div style="text-align: center; items: center;">
   <img style="width: 25%; height: auto;" src="FM5.png" alt="FM 5.0 Screenshot"/>
 </div>
-
 
   <p>FM 5.0 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
 
@@ -29,8 +42,8 @@
 
   <ol>
     <li><strong>Clone the repository:</strong></li>
-    <pre>git clone https://github.com/yourusername/FM-5.0.git
-cd FM-5.0</pre>
+    <pre>git clone https://github.com/JRH89/FM5.git
+cd FM</pre>
     <li><strong>Install dependencies:</strong></li>
     <pre>pip install -r requirements.txt</pre>
     <li><strong>Run the script:</strong></li>
