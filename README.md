@@ -12,8 +12,6 @@
 
 <p>FM 5.5 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
 
-<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5.5/main.exe">HERE</a> to download.</p>
-
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
@@ -27,8 +25,6 @@
   <p>FM 5.0 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
 
 <p>Download the FM 5.0 YouTube Downloader executable for a hassle-free experience. This standalone executable is packaged with all the necessary dependencies, allowing you to use the application without worrying about installing Python, yt_dlp, or ffmpeg separately. Simply download the executable, run it on your Windows machine, and start downloading your favorite YouTube content with ease.</p>
-
-<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5/main.exe">HERE</a> to download.</p>
 
   <h2>Prerequisites</h2>
 
