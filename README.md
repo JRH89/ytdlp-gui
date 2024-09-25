@@ -2,6 +2,9 @@
 <html>
 
 <body>
+
+ Read my blog on how to make your own:
+https://www.hookerhillstudios.com/blogs/creating-a-gui-application-to-download-media-from-youtube-for-free
  <h1>FM 5.5 - YouTube Downloader</h1>
 
   <h2>Release Overview</h2>
