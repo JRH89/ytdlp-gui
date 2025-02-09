@@ -2,17 +2,18 @@
 <html>
 
 <body>
+
+ Read my blog on how to make your own:
+https://www.hookerhillstudios.com/blogs/creating-a-gui-application-to-download-media-from-youtube-for-free
  <h1>FM 5.5 - YouTube Downloader</h1>
 
   <h2>Release Overview</h2>
-  <p>Introducing dark mode, progress bar, and custom save location.</p>
+  <p>Introducing dark mode and custom save location.</p>
 <div style="text-align: center; items: center;">
   <img style="width: 25%; height: auto;" src="FM5.5.png" alt="FM 5.5 Screenshot"/>
 </div>
 
 <p>FM 5.5 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
-
-<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5.5/main.exe">HERE</a> to download.</p>
 
 ------------------------------------------------------------------------
 ------------------------------------------------------------------------
@@ -27,8 +28,6 @@
   <p>FM 5.0 is a simple YouTube downloader that allows you to download both video and audio content from YouTube. It uses the <code>yt_dlp</code> library for YouTube downloads and <code>ffmpeg</code> for audio extraction.</p>
 
 <p>Download the FM 5.0 YouTube Downloader executable for a hassle-free experience. This standalone executable is packaged with all the necessary dependencies, allowing you to use the application without worrying about installing Python, yt_dlp, or ffmpeg separately. Simply download the executable, run it on your Windows machine, and start downloading your favorite YouTube content with ease.</p>
-
-<p>Click <a href="https://github.com/JRH89/FM5/releases/download/v5/main.exe">HERE</a> to download.</p>
 
   <h2>Prerequisites</h2>
 
