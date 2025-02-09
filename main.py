@@ -105,6 +105,7 @@ class YoutubeDownloader:
             'format': 'bestvideo+bestaudio/best',
             'outtmpl': f'{self.download_folder}/%(title)s.%(ext)s',
             'progress_hooks': [self.update_progress],
+            'cookies-from-browser': 'chrome'  # Change to 'firefox', 'edge', or 'brave' if needed
         }
 
         if format == 'mp3':
@@ -120,10 +121,10 @@ class YoutubeDownloader:
                 info_dict = ydl.extract_info(url, download=True)
                 title = info_dict.get('title', 'media')
                 messagebox.showinfo("Success", f"{format.upper()} download completed successfully.")
-                # Update the list of downloads
                 self.load_downloads()
             except yt_dlp.DownloadError as e:
                 messagebox.showerror("Error", f"Download failed: {e}")
+
 
     def update_progress(self, d):
         if d['status'] == 'downloading':
